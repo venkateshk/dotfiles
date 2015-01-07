@@ -5,6 +5,12 @@ var toffset = tdate.getTimezoneOffset();
 var fpti = document.createElement("script");
 var proto = window.location.protocol;
 
+function getCookie(name) {
+ var re = new RegExp(name + "=([^;]+)");
+ var value = re.exec(document.cookie);
+ return (value != null) ? unescape(value[1]) : null;
+}
+
 (function() {    	
 var ppb = document.createElement("img");
 var mplx_svid=getCookie("svid");
