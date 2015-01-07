@@ -1,4 +1,5 @@
-var ad_url = 'adfarm.mediaplex.com/ad/ck/15978-198668-1039-4?mpt=1736108736&mpcr=&mpcrset=&mpcr=46583331&mpcrset=root';
+//var ad_url = 'adfarm.mediaplex.com/ad/ck/15978-198668-1039-4?mpt=1736108736&mpcr=&mpcrset=&mpcr=46583331&mpcrset=root';
+var ad_url = '<mpck/>';
 var tdate = new Date();
 var tepochtime = Math.round(tdate.getTime()/1000.0);
 var toffset = tdate.getTimezoneOffset();
