@@ -7,7 +7,7 @@ var pat = /\d+\-\d+\-\d+\-\d+/; //define pattern to match placement id
 var rot_id = x.match(pat); //extract placement id from mpck
 alert(rot_id);
 //alert(theMpck);
-alert(user);
+//alert(user);
 var ad_url = 'adfarm.mediaplex.com/ad/ck/'+rot_id;
 var tdate = new Date();
 var tepochtime = Math.round(tdate.getTime()/1000.0);
