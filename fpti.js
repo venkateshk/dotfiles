@@ -6,7 +6,6 @@ var fpti = document.createElement("script");
 var proto = window.location.protocol;
 
 (function() {    	
-	alert("hi");
 var ppb = document.createElement("img");
 //var mplx_svid=getCookie("svid");
 //alert(mplx_svid);
