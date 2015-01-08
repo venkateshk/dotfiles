@@ -1,9 +1,9 @@
 //var ad_url = 'adfarm.mediaplex.com/ad/ck/15978-198668-1039-4?mpt=1736108736&mpcr=&mpcrset=&mpcr=46583331&mpcrset=root';
 //var ad_url = '<mpck/>';
-alert("one");
+//alert("one");
 //var x = document.referrer;
 //alert(x);
-alert(ppCampId);
+//alert(ppCampId);
 //alert(theMpck);
 //alert(user);
 //avar ad_url = 'adfarm.mediaplex.com/ad/ck/'+rot_id;
