@@ -1,10 +1,11 @@
 //var ad_url = 'adfarm.mediaplex.com/ad/ck/15978-198668-1039-4?mpt=1736108736&mpcr=&mpcrset=&mpcr=46583331&mpcrset=root';
 //var ad_url = '<mpck/>';
 alert("one");
-var x = document.referrer;
-alert(x);
+//var x = document.referrer;
+//alert(x);
+alert(ppCampId);
 var pat = /\d+\-\d+\-\d+\-\d+/; //define pattern to match placement id 
-var rot_id = x.match(pat); //extract placement id from mpck
+var rot_id = ppCampId.match(pat); //extract placement id from mpck
 alert(rot_id);
 //alert(theMpck);
 //alert(user);
