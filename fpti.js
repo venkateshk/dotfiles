@@ -4,7 +4,7 @@ function getCookie(name) {
  return (value != null) ? unescape(value[1]) : null;
 }
 (function() {    
-alert("inner");
+alert("inner-1");
 var ad_url;
 var tdate = new Date();
 var tepochtime = Math.round(tdate.getTime()/1000.0);
@@ -16,7 +16,7 @@ var scripts = document.getElementsByTagName('script');
 alert(scripts.length);
 for (var i = 0; i < scripts.length; i++) { 
 	var scriptSrc = scripts[i].src; 
-	if ( scriptSrc.indexOf("adfarm.mediaplex.com") > -1 && !scriptSrc.match(pat)) { 
+	if ( scriptSrc.indexOf("adfarm.mediaplex.com") > -1 && scriptSrc.match(pat)) { 
         ad_url = scriptSrc;
         alert(ad_url);
         break;
