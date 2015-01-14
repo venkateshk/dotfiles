@@ -1,8 +1,9 @@
 var ad_url;
+var pattern = /\d+\-\d+\-\d+\-\d+/;
 var scripts = document.getElementsByTagName('script');
 for (var i = 0; i < scripts.length; i++) { 
 	var scriptSrc = scripts[i].src; 
-	if ( scriptSrc.indexOf("adfarm.mediaplex.com") > -1 && scriptSrc.match(pat)) { 
+	if ( scriptSrc.indexOf("adfarm.mediaplex.com") > -1 && scriptSrc.match(pattern)) { 
         ad_url = scriptSrc;
         break;
     }
